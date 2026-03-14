@@ -1,0 +1,15 @@
+name = "yoyaku01"
+main = "src/index.ts"
+compatibility_date = "2025-03-01"
+compatibility_flags = ["nodejs_compat"]
+
+[triggers]
+crons = ["*/10 * * * *"]
+
+[vars]
+# Set these in .dev.vars (local) and Cloudflare Dashboard (production)
+# SUPABASE_URL = ""
+# SUPABASE_ANON_KEY = ""
+# ADMIN_SECRET = ""   # Basic auth password for /admin
+# MAGIC_LINK_BASE_URL = "https://yoyaku01.example.com"
+# TOKEN_EXPIRY_HOURS = "72"
